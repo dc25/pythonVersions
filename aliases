@@ -1,0 +1,14 @@
+function dx
+{
+  sudo docker run -it --rm -v `pwd`:`pwd` -w `pwd` "$@"
+}
+
+function p8
+{
+  dx python:3.8-slim python "$@"
+}
+
+function p7
+{
+  dx python:3.7-slim python "$@"
+}
