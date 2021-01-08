@@ -5,10 +5,10 @@ function dx
 
 function p3.8
 {
-  dx python:3.8-slim python "$@"
+  dx python:3.8-slim "$@"
 }
 
 function p3.7
 {
-  dx python:3.7-slim python "$@"
+  dx python:3.7-slim "$@"
 }
